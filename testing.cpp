@@ -137,8 +137,7 @@ bool testNodeToHTMLWithDiff(const std::string& html) {
 void runTests() {
     // Test Cases
     // const char* basicHTML = "<html><head><title>Simple Page</title></head><body><h1>Hello, world!</h1></body></html>";
-    const char* basicHTML = "<html><head><meta charset=\"UTF-8\"><title>Simple Page</title></head><body><h1>Hello, world!</h1></body></html>";
-
+    const char* basicHTML = "<!DOCTYPE html><html><head><meta charset=\"UTF-8\"><title>Simple Page</title></head><body><h1>Hello, world!</h1></body></html>";
 
     std::vector<std::string> testCases = {
         basicHTML,
